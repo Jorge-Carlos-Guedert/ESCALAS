@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "x4mchrmeQPN8nTtaSnHVsZfqYNyGbIl2H8QOwPzqWKI=",
+  "Source": "AppCadastroPessoasAPI",
+  "BasePath": "_content/AppCadastroPessoasAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
