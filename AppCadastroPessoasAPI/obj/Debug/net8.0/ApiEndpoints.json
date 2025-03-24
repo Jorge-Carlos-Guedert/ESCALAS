@@ -1,0 +1,185 @@
+[
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.ConfigurarCalendariosController",
+    "Method": "SalvarHorarios",
+    "RelativePath": "api/ConfigurarCalendarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "horarios",
+        "Type": "System.Collections.Generic.List\u00601[[AppCadastroPessoasAPI.Models.ConfigurarCalendario, AppCadastroPessoasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.ConfigurarCalendariosController",
+    "Method": "GetHorarios",
+    "RelativePath": "api/ConfigurarCalendarios/{ano}/{mes}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ano",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "Get",
+    "RelativePath": "Pessoas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "Atualizar",
+    "RelativePath": "Pessoas/atualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pessoaAtualizada",
+        "Type": "AppCadastroPessoasAPI.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "Post",
+    "RelativePath": "Pessoas/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "AppCadastroPessoasAPI.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "Excluir",
+    "RelativePath": "Pessoas/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "GetAdmins",
+    "RelativePath": "Pessoas/getAdmins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "GetUsers",
+    "RelativePath": "Pessoas/getUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "HealthCheck",
+    "RelativePath": "Pessoas/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "IsAdmin",
+    "RelativePath": "Pessoas/isAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AppCadastroPessoasAPI.Models.IsAdminRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
+    "Method": "Login",
+    "RelativePath": "Pessoas/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AppCadastroPessoasAPI.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AppCadastroPessoasAPI.WeatherForecast, AppCadastroPessoasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

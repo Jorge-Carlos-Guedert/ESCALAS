@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\configurarcalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\configurarcalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\controllers\\configurarcalendarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:controllers\\configurarcalendarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\isadminrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\isadminrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +39,12 @@
       "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\migrations\\20250301203529_addisadmintopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:migrations\\20250301203529_addisadmintopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\migrations\\20250301203529_addisadmintopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:migrations\\20250301203529_addisadmintopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IsAdminRequest.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\IsAdminRequest.cs",
               "RelativeDocumentMoniker": "Models\\IsAdminRequest.cs",
@@ -59,18 +71,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20250301203529_AddIsAdminToPessoa.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "RelativeToolTip": "Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "Models\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Pessoa.cs",
+              "RelativeToolTip": "Models\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T20:51:05.781Z"
+              "WhenOpened": "2025-02-23T18:40:29.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:10:12.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T22:52:07.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfigurarCalendario.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\ConfigurarCalendario.cs",
+              "RelativeDocumentMoniker": "Models\\ConfigurarCalendario.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\ConfigurarCalendario.cs",
+              "RelativeToolTip": "Models\\ConfigurarCalendario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:40:35.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PessoasController.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\PessoasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PessoasController.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\PessoasController.cs",
+              "RelativeToolTip": "Controllers\\PessoasController.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAswOoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:40:28.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigurarCalendarios.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\ConfigurarCalendarios.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConfigurarCalendarios.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\ConfigurarCalendarios.cs",
+              "RelativeToolTip": "Controllers\\ConfigurarCalendarios.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:33:10.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T14:32:14.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T20:51:26.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -82,64 +179,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "20250301203529_AddIsAdminToPessoa.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250301203529_AddIsAdminToPessoa.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250301203529_AddIsAdminToPessoa.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250301203529_AddIsAdminToPessoa.cs",
+              "RelativeToolTip": "Migrations\\20250301203529_AddIsAdminToPessoa.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T14:32:14.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "Models\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T22:52:07.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Pessoa.cs",
-              "RelativeDocumentMoniker": "Models\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Pessoa.cs",
-              "RelativeToolTip": "Models\\Pessoa.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:40:29.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PessoasController.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\PessoasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PessoasController.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\PessoasController.cs",
-              "RelativeToolTip": "Controllers\\PessoasController.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAAAK8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:40:28.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T20:51:26.069Z"
+              "WhenOpened": "2025-03-01T20:51:05.781Z"
             }
           ]
         }

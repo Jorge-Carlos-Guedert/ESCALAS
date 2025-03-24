@@ -1,5 +1,13 @@
 import 'dart:convert';
+import 'package:app_cadastro_pessoas/models/configurar_calendarios.dart';
 import 'package:http/http.dart' as http;
+
+
+
+  // Converte o objeto ConfigurarCalendarios para JSON
+  
+
+  // Add any other necessary methods or properties
 
 class ApiService {
   static const String baseUrl = 'https://localhost:7255'; // Substitua pelo endereço da sua API
@@ -7,7 +15,7 @@ class ApiService {
   static Future<void> verificarConexao() async {
     try {
       final response = await http.get(
-        Uri.parse('$baseUrl /Pessoas/health'), // Endpoint de health check
+        Uri.parse('$baseUrl/Pessoas/health'), // Endpoint de health check
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
         },
@@ -182,4 +190,29 @@ static Future<void> atualizarPessoa(int id, Map<String, dynamic> dados) async {
     throw Exception('Erro ao conectar à API: $e');
   }
 }
+
+
+static Future<List<ConfigurarCalendarios>> fetchHorarios(int ano, int mes) async {
+  final response = await http.get(Uri.parse('$baseUrl/api/ConfigurarCalendarios/$ano/$mes'));
+  if (response.statusCode == 200) {
+    var jsonData = jsonDecode(response.body);
+    return (jsonData as List).map((h) => ConfigurarCalendarios.fromJson(h)).toList();
+  } else {
+    throw Exception('Falha ao carregar horários');
+  }
+}
+
+static Future<void> salvarHorarios(List<ConfigurarCalendarios> horarios) async {
+  final response = await http.post(
+    Uri.parse('$baseUrl/api/ConfigurarCalendarios'),
+    headers: {'Content-Type': 'application/json'},
+    body: jsonEncode(horarios.map((h) => h.toJson()).toList()),
+  );
+
+  if (response.statusCode != 200) {
+    throw Exception('Falha ao salvar horários');
+  }
+}
+
+
 }

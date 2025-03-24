@@ -1,23 +1,39 @@
+import 'package:app_cadastro_pessoas/screens/config_mes.dart';
+import 'package:app_cadastro_pessoas/screens/config_semana.dart';
 import 'package:flutter/material.dart';
-import 'package:app_cadastro_pessoas/services/api_service.dart'; // Importe o serviço de API
-import 'package:app_cadastro_pessoas/screens/adm_pessoas_screen.dart'; // Importe a tela de PESSOAS
-import 'package:app_cadastro_pessoas/screens/adm_configuracao_mes_screen.dart';
-import 'package:app_cadastro_pessoas/screens/login_screen.dart'; // Importe a tela de CONFIGURAÇÃO MÊS  
-import 'package:app_cadastro_pessoas/screens/cadastro_screen.dart'; // Importe a tela de CADASTRO
+import 'package:app_cadastro_pessoas/services/api_service.dart';
+import 'package:app_cadastro_pessoas/screens/adm_pessoas_screen.dart';
+import 'package:app_cadastro_pessoas/screens/login_screen.dart';
+import 'package:app_cadastro_pessoas/screens/cadastro_screen.dart';
 
-class AdmGeralScreen extends StatelessWidget {
+
+class AdmGeralScreen extends StatefulWidget {
+  @override
+  _AdmGeralScreenState createState() => _AdmGeralScreenState();
+}
+
+class _AdmGeralScreenState extends State<AdmGeralScreen> {
+  bool _configuracaoSemanaSalva = false; // Estado para controlar se as configurações foram salvas
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    // Reseta o estado ao retornar à tela
+    _configuracaoSemanaSalva = false;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Administradores Cadastrados'),
+        title: Text('Administrador Geral'),
       ),
       body: Column(
         children: [
           // Lista de administradores
           Expanded(
             child: FutureBuilder<List<String>>(
-              future: ApiService.getAdmins(), // Método para buscar administradores
+              future: ApiService.getAdmins(),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return Center(child: CircularProgressIndicator());
@@ -46,7 +62,6 @@ class AdmGeralScreen extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    // Navega para a tela de PESSOAS
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(builder: (context) => Administrador_Pessoas_Screen()),
@@ -55,8 +70,37 @@ class AdmGeralScreen extends StatelessWidget {
                   child: Text('PESSOAS'),
                 ),
                 ElevatedButton(
+                  onPressed: () async {
+                    // Navega para a tela de CONFIGURAÇÃO SEMANA e aguarda o resultado
+                    final bool? salvo = await Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ConfiguracaoSemanaScreen(ano: null, mes: null,)),
+                    );
+
+                    // Atualiza o estado se as configurações foram salvas
+                    if (salvo == true) {
+                      setState(() {
+                        _configuracaoSemanaSalva = true;
+                      });
+                    }
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: _configuracaoSemanaSalva ? Colors.green : null, // Altera a cor do botão
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text('CONFIGURAÇÃO SEMANA'),
+                      if (_configuracaoSemanaSalva) // Adiciona um ícone de checkmark
+                        Padding(
+                          padding: const EdgeInsets.only(left: 8.0),
+                          child: Icon(Icons.check, color: Colors.white),
+                        ),
+                    ],
+                  ),
+                ),
+                ElevatedButton(
                   onPressed: () {
-                    // Navega para a tela de CONFIGURAÇÃO MÊS
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(builder: (context) => ConfiguracaoMesScreen()),
@@ -66,17 +110,15 @@ class AdmGeralScreen extends StatelessWidget {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    // Navega para a tela de CADASTRO
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(builder: (context) => CadastroScreen()),
                     );
                   },
-                  child: Text('CADASTRAR-SE'),
+                  child: Text('CADASTRAR'),
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    // Volta para a tela de login
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(builder: (context) => LoginScreen()),

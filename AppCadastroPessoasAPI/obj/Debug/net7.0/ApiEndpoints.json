@@ -1,5 +1,42 @@
 [
   {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.ConfigurarCalendariosController",
+    "Method": "SalvarHorarios",
+    "RelativePath": "api/ConfigurarCalendarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "horarios",
+        "Type": "System.Collections.Generic.List\u00601[[AppCadastroPessoasAPI.Models.ConfigurarCalendario, AppCadastroPessoasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppCadastroPessoasAPI.Controllers.ConfigurarCalendariosController",
+    "Method": "GetHorarios",
+    "RelativePath": "api/ConfigurarCalendarios/{ano}/{mes}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ano",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AppCadastroPessoasAPI.Controllers.PessoasController",
     "Method": "Get",
     "RelativePath": "Pessoas",

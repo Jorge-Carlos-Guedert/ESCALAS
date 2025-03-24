@@ -227,5 +227,9 @@ namespace AppCadastroPessoasAPI.Controllers
                 return StatusCode(500, $"Erro interno: {ex.Message}");
             }
         }
+
+
+
+
     }
 }

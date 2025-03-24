@@ -1,6 +1,8 @@
+import 'package:app_cadastro_pessoas/screens/adm_geral.dart';
 import 'package:flutter/material.dart';
 import 'package:app_cadastro_pessoas/services/api_service.dart';
 import 'editar_pessoa_screen.dart'; // Import da tela de edição
+ // Import da tela ADM_GERAL
 
 class Administrador_Pessoas_Screen extends StatefulWidget {
   @override
@@ -26,7 +28,18 @@ class _Administrador_Pessoas_ScreenState extends State<Administrador_Pessoas_Scr
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Administrador'),
+        title: Text('Administrar Pessoas'),
+        // Botão de voltar no canto superior esquerdo
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back), // Ícone de voltar
+          onPressed: () {
+            // Navega para a tela ADM_GERAL
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => AdmGeralScreen()),
+            );
+          },
+        ),
       ),
       body: FutureBuilder<List<Map<String, dynamic>>>(
         future: _futurePessoas,

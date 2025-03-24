@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:app_cadastro_pessoas/services/api_service.dart';
-import 'package:app_cadastro_pessoas/screens/adm_geral.dart';
+import 'package:app_cadastro_pessoas/screens/adm_geral.dart'; // Import da tela ADM_GERAL
 
 class CadastroScreen extends StatefulWidget {
   @override
@@ -19,7 +19,18 @@ class _CadastroScreenState extends State<CadastroScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cadastro de Pessoa'),
+        title: Text('Cadastrar Pessoas'),
+        // Botão de voltar no canto superior esquerdo
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back), // Ícone de voltar
+          onPressed: () {
+            // Navega para a tela ADM_GERAL
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => AdmGeralScreen()),
+            );
+          },
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
